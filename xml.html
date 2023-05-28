@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>XML &copy</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">
+        <p>Inicio</p>
+      </a>
+      <a href="ajustes.html">
+        <p>Ajustes</p>
+      </a>
+      <button id="abrirModal">Modal</button>
+
+      <div id="myModal" class="modal">
+        <div class="posicionModal">
+          <span id="closeModalButton">&times;</span>
+          <h3>Modal</h3>
+          <p>Alberto Enrique Pulido. <br> 1ºDAW CENEC <br>
+            El nombre se escribe en la página "Ajustes" y se guarda o borra
+            dandole al botón </p>
+        </div>
+      </div>
+      <p id="seleccionado">Canción</p>
+    </nav>
+
+  </header>
+
+  <main>
+    <div id="xml"></div>
+    <script src="script.js"></script>
+    <footer>
+      <small>&copy; 2023 Alberto Enrique Pulido. 1ºDAW. Todos los derechos reservados.</small>
+      <p id="nombreGuardado"></p>
+    </footer>
+  </main>
+</body>
+
+</html>
