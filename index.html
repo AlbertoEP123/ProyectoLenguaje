@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>inicio &copy</title>
+</head>
+
+<body>
+
+
+  <header>
+    <nav>
+      <p id="seleccionado">Inicio</p>
+      <a href="ajustes.html">
+        <p>Ajustes</p>
+      </a>
+      <button id="abrirModal"> Modal</button>
+
+      <div id="myModal" class="modal">
+        <div class="posicionModal">
+          <span id="closeModalButton">&times;</span>
+          <h3>Modal</h3>
+          <p>Alberto Enrique Pulido. <br> 1ºDAW CENEC. <br></p>
+           <p>El nombre se escribe en la página "Ajustes" y se guarda o borra
+            dándole al botón correspondiente.</p><p>La música no es posible escucharla mientras navegas por otras páginas, <br>
+            se pausa al cambiar a otra página html porque los scripts de reinician al cambiar o recargar, 
+          sólo se escucha en la página de inicio o mientras lees el modal</p>
+        </div>
+      </div>
+
+      <a href="xml.html">
+        <p>Canción</p>
+      </a>
+    </nav>
+
+  </header>
+  <br>
+  <main>
+    <section id="inicio">
+      <div class="test">
+        <p>
+          Extremoduro - La vereda de la puerta de atrás
+        </p>
+        <audio id="backgroundMusic" src="./lavereda.wav" loop></audio>
+        <div id="audioControls">
+          <button id="playButton">Reproducir</button>
+          <button id="pauseButton">Pausar</button>
+          <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="1">
+        </div>
+        <br><br>
+        <div class="image">
+          <img src="extremo.jpg" alt="" srcset="">
+        </div>
+        </div>
+
+    </section>
+
+    <footer>
+      <small>&copy; 2023 Alberto Enrique Pulido. 1ºDAW. Todos los derechos reservados.</small>
+      <p id="nombreGuardado"></p>
+    </footer>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

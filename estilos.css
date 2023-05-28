@@ -1,0 +1,139 @@
+@media screen and (min-width: 30em) and (orientation: landscape)  {
+    body{
+        margin: auto;
+        padding: 10px;
+        height: 96vh;
+        width: auto;
+        background-image:url("fondo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+  }  
+.test{
+  width: 50vh;
+  height: 10vh;
+  border: solid 1px;
+ 
+}
+.test:hover{
+  background-image: url("guitar.png");
+  background-color: #ffcdcd42;
+  color: white;
+}
+#inicio{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.image{
+  width: 300px;
+  height: 300px;
+  margin-left: 18%;
+}
+.image img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+header {
+    width: 96%;
+    height: auto;
+    background-color: #cccccc15;
+    margin: 2px 2px 2px 2px;
+    padding: 10px 10px 10px 10px;
+    border: inset 2px rgba(24, 183, 223, 0.452);
+    
+}  
+
+nav {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-evenly; 
+}
+footer{
+    background-color: rgba(134, 231, 255, 0.226);
+    color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    margin: 2vh 2vh 2vh 2vh;
+    padding: 1vh 1vh 1vh 1vh;
+    width: 95%;
+    height: 5%;
+    text-align: center;
+    border: solid 1px;
+}
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  footer>#nombreGuardado{
+  margin-left: 80vh;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav>a>p:hover{
+    border-bottom: solid 2px;   
+    text-transform: uppercase;
+  }
+  #seleccionado{
+    background-color: rgba(114, 255, 201, 0.548);
+    width: 80px;
+    text-align: center;
+    font-size: medium;
+    border-color: gray;
+    border-width: 2px;
+    border-style: dotted;
+    border-radius: 90%;
+    color: rgba(255, 0, 0, 0.562);
+    
+  }
+  
+  #abrirModal{
+    width: 10vh;
+    height: 5vh;
+    border: none;
+    background-color: #cccccc15;
+    
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-align: center;
+  }
+  
+  .posicionModal {
+    background-color: #fefefecc;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  #closeModalButton {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  #closeModalButton:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
